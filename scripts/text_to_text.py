@@ -30,7 +30,7 @@ def query_gpt(question):
     url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "Api-Key AQVN0m68cAC6dKMy4nlpUYbzyYMlZYitACpHykHG"
+        "Authorization": "Api-Key "
     }
 
     response = requests.post(url, headers=headers, json=prompt)
